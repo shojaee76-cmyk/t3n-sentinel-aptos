@@ -1,0 +1,14 @@
+[package]
+name = "t3n_sentinel_aptos"
+version = "1.0.0"
+authors = ["t3n-sentinel team"]
+description = "Aptos (Move) port of the t3n-sentinel agent key vault & health sentinel"
+license = "MIT"
+
+[addresses]
+sentinel = "_"
+
+[dependencies.AptosFramework]
+local = "C:/Users/capit/AppData/Local/Temp/aptos-fw-src/aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
